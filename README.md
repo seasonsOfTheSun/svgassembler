@@ -23,7 +23,7 @@ example_subplot2 = Subplot(filename)
 plot.append(example_subplot2)
 ```
 
-Adjust the size and position of your subplots to taste.
+Adjust the size and position (in that order) of your subplots to taste.
 
 ```
 example_subplot1.scale(0.1)
