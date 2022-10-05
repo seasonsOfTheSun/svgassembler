@@ -5,7 +5,7 @@ This makes the subplots automatically evenly spaced, aligned, and it's easy to m
 
 Here's what you can find in ```example.ipynb```
 
-
+Make a plot object.
 ```
 from svgassemble import Subplot, Plot
 plot = Plot(width=1000, height=300)
