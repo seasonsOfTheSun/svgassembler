@@ -4,10 +4,15 @@ Combine individual ```.svg``` files into one big ```.svg``` file, placing the su
 This makes the subplots automatically evenly spaced, aligned, and it's easy to move them in and out of the viewBox. Hopefully this will save some headaches in inkscape, omnigraffle, illustrator etc.
 
 Here's what you can find in ```example.ipynb```
-```from svgassemble import Subplot, Plot
-plot = Plot(width=1000, height=300)```
 
-Import your ```.svg``` files and add them as subplots of the main plot.
+
+```
+from svgassemble import Subplot, Plot
+plot = Plot(width=1000, height=300)
+```
+
+Import your ```.svg``` files and add them as subplots of the main plot.  
+
 ```
 filename = "figures/ringiness_genes.svg"
 example_subplot1 = Subplot(filename)
@@ -19,6 +24,7 @@ plot.append(example_subplot2)
 ```
 
 Adjust the size and position of your subplots to taste.
+
 ```
 example_subplot1.scale(0.1)
 example_subplot1.translate(20,50)
@@ -26,7 +32,7 @@ example_subplot1.translate(20,50)
 example_subplot2.scale(0.1)
 example_subplot2.translate(10,10)
 ```
-
+Now write to a destination file. It will overwrite without promppting so be careful.
 ```
 plot.write("myplot.svg")
 ```
