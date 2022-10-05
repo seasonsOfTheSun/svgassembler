@@ -36,4 +36,4 @@ Now write to a destination file. It will overwrite without promppting so be care
 ```
 plot.write("myplot.svg")
 ```
-Sadly you can't view this directly in the notebook, but you can open it in another tab of the browser and take a look at the result.
+Sadly you can't view this directly in the notebook, but you can open it in another tab of the browser and take a look at the result. You'll probably have to iterate a few times to get it to look how you wanted so keep hitting that refresh button.
