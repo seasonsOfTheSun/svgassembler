@@ -1,6 +1,6 @@
 # svgassembler
 
-Combine individual ```.svg``` files into one big ```.svg``` file, placing the subplots programatically (i.e. set ```x,y```coordinates and it prints the subplot there).
+Combine individual ```.svg``` files into one big ```.svg``` file, placing the subplots programatically (i.e. set ```x,y```coordinates and it moves the subplot there).
 This makes the subplots automatically evenly spaced, aligned, and it's easy to move them in and out of the viewBox. Hopefully this will save some headaches in inkscape, omnigraffle, illustrator etc.
 
 Here's what you can find in ```example.ipynb```
